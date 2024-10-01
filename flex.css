@@ -22,11 +22,10 @@
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
-.box11 { background: #3498db}
 
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
-  border:10px solid goldenrod;
+  border:10px solid rgb(218, 165, 32);
   display: flex;
   justify-content: space-between;
   align-content: stretch;
@@ -35,22 +34,26 @@
   margin: 0 auto;
   flex-direction: row;
   align-items: center;
+  max-width: 1280px;
+  
   
 }
 
 [class^="box"] {
     display: flex;
-    justify-content; center;
+    justify-content: center;
     align-items: center;
 }
 
 
 .box1 {
-  
+  width: 500%;
+  height: 100%;
+  length: 30%
 }
 
 .box2 {
-  
+  height: 100%
 }
 .box3 {
   
@@ -75,7 +78,4 @@
 }
 .box10 {
   
-}
-.box11 {
-
 }
